@@ -1,0 +1,34 @@
+<div id="tela-login">
+    <div class="login-content">
+        <div id="logo">
+            <div class="grid-container">
+                <img src="/../../../../assets/img/logo_vertical.png" class="img-responsive" alt="Logo do site" title="Logo Meus Livros Lidos">
+            </div>
+        </div>
+        <div class="grid-container box-login">
+            <h3>Login</h3>
+            <form action="">
+                <input [(ngModel)]="usuario.username" name="username" type='text' placeholder='Usuário'>
+                <input [(ngModel)]="usuario.password" name="password" type='password' placeholder='Senha'>
+                <!-- <div class="div-reset-senha">
+                    <a href="#" class="button btn-link">Esqueceu a senha?</a>
+                </div> -->
+                <button class="button btn-login" (click)="login()">Login</button>
+            </form>
+            <!-- <div class="div-cadastrar">
+                <span>Ainda não é cadastrado? <a href="#">Clique aqui para se cadastrar</a></span>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<footer id="footer">
+    <span>Meus Livros Lidos &copy; Todos os direitos reservados</span>
+</footer>
+
+<script src="assets/lib/Foundation/js/vendor/jquery.js"></script>
+<script src="assets/lib/Foundation/js/vendor/what-input.js"></script>
+<script src="assets/lib/Foundation/js/vendor/foundation.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Open-Sans";
+    src: url("/../../../../assets/fonts/OpenSans/OpenSans-Regular.ttf");
+    font-size: 1rem;
+}
+
+html,
+body,
+#tela-login {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    font-family: "Open-Sans", sans-serif;
+    color: #4D4D4F;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-link {
+    background: transparent;
+    color: #4CA9BF;
+}
+
+#tela-login {
+    display: table;
+    text-align: center;
+}
+
+#tela-login #logo{
+    margin-top: 20px;
+}
+
+#tela-login .login-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#tela-login .box-login {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#tela-login .box-login h3 {
+    letter-spacing: 2px;
+}
+
+#tela-login .box-login .div-reset-senha {
+    float: left;
+}
+
+#tela-login .box-login .div-reset-senha a {
+    margin-bottom: 0;
+}
+
+#tela-login .box-login form .btn-login {
+    width: 100%;
+    margin-top: 6%;
+}
+
+#tela-login .box-login .div-cadastrar {
+    border-top: 2px solid #eee;
+}
+
+#tela-login .box-login .div-cadastrar a {
+    text-decoration: underline;
+}
+
+#footer {
+    text-align: center;
+    background-color: transparent;
+    color: #bbb;
+}
+
+
+/* Small only */
+
+@media screen and (max-width: 39.9375em) {
+    #tela-login .box-login {
+        width: 20rem;
+        padding: 3%;
+        margin-top: 10%;
+    }
+    #tela-login .box-login .div-checkbox {
+        padding-top: 2.5%;
+    }
+    #tela-login .box-login .div-cadastrar {
+        padding: 4% 0;
+    }
+    #footer {
+        padding: 1%;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* Medium and up */
+
+@media screen and (min-width: 40em) {
+    #tela-login .box-login {
+        width: 28.6rem;
+        padding: 1%;
+        margin-top: 5%;
+    }
+    #tela-login .box-login .div-checkbox {
+        padding-top: 1.7%;
+    }
+    #footer {
+        padding: 2% 0;
+    }
+}
+
+
+/* Medium only */
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #tela-login .box-login .div-cadastrar {
+        padding: 4% 0;
+    }
+}
+
+
+/* Large and up */
+
+@media screen and (min-width: 64em) {
+    #tela-login .login-content #logo img {
+        width: 20%;
+    }
+    #tela-login .box-login .div-reset-senha a {
+        transition: 0.3s;
+    }
+    #tela-login .box-login .div-reset-senha a:hover {
+        transition: 0.3s;
+        text-decoration: underline;
+    }
+    #tela-login .box-login .div-cadastrar {
+        padding-top: 4%;
+    }
+}
+
+
+/* Large only */
+
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+

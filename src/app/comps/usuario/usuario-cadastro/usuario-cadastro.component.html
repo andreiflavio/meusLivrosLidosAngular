@@ -1,0 +1,13 @@
+<div class="form-group">
+  <form (ngSubmit)="cadastrar()" novalidate>
+    <div class="row">
+      <input type="text" required [(ngModel)]="usuario.first_name" name="first_name" placeholder="Primeiro nome"><br>
+      <input type="text" required [(ngModel)]="usuario.last_name" name="last_name" placeholder="Último nome"><br>
+      <input type="text" required [(ngModel)]="usuario.username" name="username" placeholder="Username"><br>
+      <input type="email" required [(ngModel)]="usuario.email" name="email" placeholder="E-mail"><br>
+      <input type="password" required [(ngModel)]="password" name="password" placeholder="Senha"><br>
+      <input type="password" required [(ngModel)]="password2" name="password2" placeholder="Confirmar Senha"><br>
+    </div>
+    <button value="submit">Cadastrar</button>
+  </form>
+</div>

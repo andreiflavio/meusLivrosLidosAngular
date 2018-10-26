@@ -1,0 +1,11 @@
+<div class="form-group">
+  <form (ngSubmit)="save()" novalidate>
+    <div class="row">
+      <input type="text" required [(ngModel)]="livro.nome" name="nome">
+      <input type="text" required [(ngModel)]="livro.autor" name="autor">
+    </div>
+    <button value="submit">Salvar</button>
+    <a [routerLink]="['/livro']" (click)="delete()">Excluir</a>
+    <a [routerLink]="['/livro']">Cancelar</a>
+  </form>
+</div>
